@@ -23,6 +23,7 @@ nav#main-menu {
     width: 100%;
     background-color: #fff;
     position: fixed;
+    z-index: 1;
 }
 
 nav#main-menu ul.menu-items {
@@ -73,4 +74,49 @@ header#main-header div.header-caption p {
 }
 
 /* Header - stop */
+
+/* Section about - start */
+
+section#about {
+    margin: 100px 0;
+    overflow: hidden;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
+}
+
+section#about .header-caption {
+    text-align: center;
+    font-size: 2em;
+}
+
+section#about .header-caption h3 {
+    font-weight: 300;
+}
+
+section#about figure {
+    text-align: center;
+}
+
+section#about figure .col-1-2 {
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+
+section#about figure .col-1-2 img {
+    height: 400px;
+    text-align: center;
+    border: 10px solid #eee;
+    border-radius: 10px;
+}
+
+section#about figure .col-1-2 p.about-description {
+    font-weight: 100;
+    font-size: 1em;
+    padding: 5px 2px;
+    line-height: 25px;
+    padding-right: 40px;
+    text-align: left;
+}
+
+/* Section about - stop */
 
