@@ -92,19 +92,15 @@ section#about .header-caption h3 {
     font-weight: 300;
 }
 
-section#about figure {
-    text-align: center;
-}
-
 section#about figure .col-1-2 {
     width: 50%;
     float: left;
     margin-top: 50px;
+    text-align: center;
 }
 
 section#about figure .col-1-2 img {
     height: 400px;
-    text-align: center;
     border: 10px solid #eee;
     border-radius: 10px;
 }
@@ -119,4 +115,69 @@ section#about figure .col-1-2 p.about-description {
 }
 
 /* Section about - stop */
+
+/* Section skills - start */
+
+#skills {
+    text-align: center;
+}
+
+#skills p.description {
+    padding: 20px 0;
+}
+
+#skills .skills-icons-items {
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+/* Section skills - stop */
+
+/* Section portfolio - start */
+
+#portfolio {
+    text-align: center;
+}
+
+#portfolio .portfolio-items {
+    width: 33%;
+    float: left;
+}
+
+#portfolio .portfolio-items .portfolio-img {
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+}
+
+#portfolio .portfolio-items .portfolio-item-1 {    
+    background-image: url(../img/portfolio1.jpg);
+}
+#portfolio .portfolio-items .portfolio-item-2 {    
+    background-image: url(../img/portfolio2.jpg);
+}
+#portfolio .portfolio-items .portfolio-item-3 {    
+    background-image: url(../img/portfolio4.jpg);
+}
+
+#portfolio .portfolio-items .portfolio-img .portfolio-item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    height: 100%;
+    transition: all 1s;
+    position: absolute;
+}
+
+#portfolio .portfolio-items .portfolio-img .portfolio-item-mask .portfolio-item-content {
+    margin: 10px;
+    border: 1px solid #fff;
+    position: relative;
+    height: 330px;
+}
+
+
+/* Section portfolio - stop */
+
+
+
 
