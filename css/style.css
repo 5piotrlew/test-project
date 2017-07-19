@@ -1,0 +1,39 @@
+/* General styles - start*/
+
+* {
+    transition: all 1s;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    
+      
+}
+
+/* General styles - stop */
+
+/* Menu - start */
+
+nav#main-menu {
+    width: 100%;
+    background-color: #fff;
+}
+
+nav#main-menu ul.menu-items {
+    float: right;
+}
+
+nav#main-menu ul.menu-items li {
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+nav#main-menu ul.menu-items li a {
+    text-decoration: none;
+    color: forestgreen;
+    font-weight: 300;
+}
+
+/* Menu - stop */
+
